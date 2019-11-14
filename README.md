@@ -1,5 +1,5 @@
 
-![logo](https://i.ibb.co/zP4HX3M/logo14.png)
+![enter image description here](https://i.ibb.co/PWnB002/logo.png)
 
 
 ### Definición del producto
@@ -16,7 +16,7 @@ Nuestros principales usuarios son, por un lado, personas que estén buscando cam
 
 
 **Tipo de Letra**
-Tipo de letra que vamos a utilizar es **Averta** por ser más clara y agradable a la vista, Así también da una imagen sencilla, sin ser demasiado formal. lo cual la hace una candidata perfecta para el público al cual queremos enfocarnos.
+Tipo de letra que vamos a utilizar es **Sans Serif** por ser más clara y agradable a la vista, Así también da una imagen sencilla, sin ser demasiado formal. lo cual la hace una candidata perfecta para el público al cual queremos enfocarnos.
 
 **Color** 
 ![enter image description here](https://i.ibb.co/yhPwVL5/Paleta-De-Colores1.png)
@@ -27,30 +27,26 @@ Hemos escogido estos colores por que queremos  proyectar confianza, salud, posit
 
 ## Historias de Usuarios
 
-Historia de usuario 1
+*Historia de usuario 1*
 Yo como usuario me gustaría  acceder a la red social  creando una cuenta
 Resultado: el usuario ingresa al sistema con su email y contraseña
 Criterio de aceptación: 
 Es usuario registra sus datos y se loguea a través de su email y una contraseña.
-Historia de usuario 2
+
+*Historia de usuario 2*
 Yo como usuario me gustaría  acceder a la red social con mi cuenta de google
 Resultado: el usuario ingresa al sistema con su cuenta de google.
 Criterio de aceptación: Es usuario se loguea  enlazando su perfil a su cuenta de google.
-Historia de usuario 3
+
+*Historia de usuario 3*
 Yo como usuario me gustaría  acceder a la red social con mi cuenta de facebook
 
 Resultado: el usuario ingresa al sistema con su cuenta de facebook.
 Criterio de aceptación: Es usuario se loguea  enlazando su perfil a su cuenta de facebook.
-Prototipo de baja fidelidad
+
+**Prototipo de baja fidelidad**
 ![Inicio](https://i.ibb.co/TvzKRqM/Inicio.png)
 
+**Prototipo de alta fidelidad**
 
-Planificación
-
-Principalmente nos planificamos con el Trello
-
- [Trello](https://trello.com/b/XRa0uYNs/smoocare)
-
-
-
-
+https://www.figma.com/proto/OPNTCMBPnW6rwDzHmABeBJ/SmooCare?node-id=1%3A2&scaling=scale-down

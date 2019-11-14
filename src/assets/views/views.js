@@ -1,7 +1,6 @@
 import { newRegt } from './newreg.js';
 import { userGoogle, userFacebook, login } from '/assets/js/auth.js';
 
-
 export const mainViews = () => {
     //creamos vista o pagina principal/
     const contPrincipal = document.getElementById("root");
@@ -17,30 +16,35 @@ export const mainViews = () => {
     contHeader.className = "contHeader";
     contHeader.setAttribute("id", "contHeader");
     contInit.appendChild(contHeader);
-    contHeader.innerHTML += `<div class= "logo">
-                            <a title="Home" href="http://localhost:4500/"><img class="redSocialWelcome" src="https://i.ibb.co/zP4HX3M/logo14.png" alt="HomeRedSocial"></a>
-                             </div>`
+    contHeader.innerHTML += `
+                            <a title="Home" class="link" href="http://localhost:4500/"><img class="redSocialWelcome" src="assets/imagen/logo.png" alt="HomeRedSocial"></a>
+                             `
 
     //creamos container body
     const contBody = document.createElement("div");
     contBody.className = "contBody";
     contHeader.setAttribute("id", "contBody");
     contInit.appendChild(contBody);
-    contBody.innerHTML += ` <h2 class="init" >Inicio de Sesión</h2>
+    contBody.innerHTML += ` <div class="init1"><h2 class="init" >Inicio de Sesión</h2> </div>
+                            <div class="init2">
                             <input id="email2" type="correo" placeholder="Ingresa email" class="form"></br>
-                            <input id="password2" type="pasword" placeholder="ingresa contraseña" class="form"></br>
+                            <input id="password2" type="password" placeholder="ingresa contraseña" class="form"></br>
+                            </div>
+                            <div class="initbutton">
                             <button id="boton2" class="btnSigin">Acceder</button>                     
-                            <a id="newUser" href="#">Crea una Cuenta</a>
-                            <h4>Accede con:</h4>
-
-
-                            <div class="buttonlogin">
+                            </div>
+                            <div class="initnew">
+                            <p class= "question">¿Eres nuevo? </p><a id="newUser" class="linkNewAccount"href="#">Crea una Cuenta</a> </div>
                             
-                            <button id="google" class="buttonGoogle"><img src="assets/imagen/google.png" class="logoG"></button>
-                            <button id ="facebook" class="buttonFB"><img src="assets/imagen/facebook.png" class="logoF"></button>
+
+
+                            <div class="initLogin">
+                            <h4>Accede con:</h4>
+                            <button id="google" class="buttonGoogle">Google</button>
+                            <button id ="facebook" class="buttonFB">Facebook</button>
                             </div>`
 
-
+//<img src="assets/imagen/google.png" class="logoG"><img src="assets/imagen/facebook.png" class="logoF">
 
 
 
@@ -49,7 +53,7 @@ export const mainViews = () => {
     contFooter.className = "contFooter";
     contFooter.setAttribute("id", "contFooter");
     contInit.appendChild(contFooter);
-    contFooter.innerHTML += ` <h4>Creado por Geraldine, Marielys y Natalia, Laboratoria 2019</h3>`
+    contFooter.innerHTML += ` <h6>Creado por Geraldine, Marielys y Natalia, Laboratoria 2019</h6>`
 
     const newUser = document.getElementById("newUser");
     newUser.addEventListener('click', () => {
@@ -61,7 +65,6 @@ export const mainViews = () => {
     const acceder=document.getElementById("boton2");
     acceder.addEventListener("click",()=>{
         login();
-        
     })
 
 

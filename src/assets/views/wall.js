@@ -1,3 +1,4 @@
+
 import { crearPost } from '/assets/js/post.js';
 
 export const wall = () => {
@@ -45,4 +46,3 @@ export const wall = () => {
     crearPost();
   })
 
-}

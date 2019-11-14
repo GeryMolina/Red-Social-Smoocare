@@ -1,4 +1,5 @@
-import { createUser } from '/assets/js/auth.js';
+import { mainViews } from './views.js';
+import { verificar } from '../js/validation.js'
 
 export const newRegt = () => {
     //creamos vista o pagina principal
@@ -50,7 +51,8 @@ export const newRegt = () => {
     
     const crearCuenta=document.getElementById("enviar2");
     crearCuenta.addEventListener("click",()=>{
-      
+        verificar();
+        mainViews();
         login();
     })
 

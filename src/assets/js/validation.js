@@ -18,7 +18,7 @@ export const observador = () => {
 
             // ... */
             console.log('ingreso');
-            wall();
+            
            
         } else {
             // User is signed out.
@@ -51,7 +51,7 @@ function cerrar() {
         });
 }
 // Verificación por 
-function verificar() {
+export const verificar = ()=> {
     var user = firebase.auth().currentUser;
 
     user.sendEmailVerification()

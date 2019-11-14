@@ -65,6 +65,7 @@ export const mainViews = () => {
     const acceder=document.getElementById("boton2");
     acceder.addEventListener("click",()=>{
         login();
+        
     })
 
 
